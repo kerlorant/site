@@ -18,21 +18,21 @@
 </head>
 
 <body>
-    <header>
-         <nav>
-        <a href="./index.html">Főoldal</a>
-        <a href="./pages/kapcsolat.html">Kapcsolat</a>
-        <a href="">Spiritualitás</a>
-        <a href="">Univerzum</a>
-        <a href="">Gépészet</a>
-        <a href="">RC-vitorlázás</a>
-        <a href="">Borászat</a>
-        <a href="">Blog</a>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Főoldal</a></li>
+            <li><a href="./pages/kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="">Spiritualitás</a> </li>
+            <li><a href="">Univerzum</a> </li>
+            <li><a href="">Gépészet</a> </li>
+            <li><a href="">RC-vitorlázás</a> </li>
+            <li><a href="">Borászat</a> </li>
+            <li><a href="">Blog</a> </li>
+            
+        </ul>
     </nav>
-    </header>
-   
-
-
+  
+ 
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/script.js"></script>
 </body>
