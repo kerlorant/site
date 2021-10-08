@@ -1,0 +1,63 @@
+/* Google fonts:  
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alef', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'PT Mono', monospace;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    */
+    body {
+        padding: 0;
+        margin: 0;
+        background-color:#202020;
+        color: white;
+        font-family: 'Ropa Sans', sans-serif;
+    }
+    main {
+        border: solid 1px white;
+    }
+    
+    main nav {
+        display: flex;
+        justify-content: left;
+        margin: 0 20px;
+        /*align-items: center;*/
+        
+        
+    }
+    main nav a {
+       /* padding: 1em;*/
+        text-decoration: none;
+        color: white;
+        width: 10%;
+        height: 30px;
+        text-align: center;
+        border: solid 1px white;
+    }
+    header div {
+        border: solid 1px white;
+        text-align: center;
+    }
+    main nav a:hover {
+        
+        background-color: #333;
+    }  
+    
+    
