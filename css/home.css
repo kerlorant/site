@@ -50,8 +50,13 @@ nav a:hover {
     
     background-color: #ccc;
     color: black;
-
-span {
+}
+.dropdownContent {
+    display: none;
+    color: black ;
+    margin: 0;
+}
+.dropbtn:hover .dropdownContent {
+    display: block;
     
-    font-weight: bold;
 }
