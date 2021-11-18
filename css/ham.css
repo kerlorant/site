@@ -29,9 +29,10 @@
         background-color:#202020;
         color: white;
         font-family: 'Ropa Sans', sans-serif;
+        font-size: 18px;
     }
     main {
-        border: solid 1px white;
+        border: solid 1px #202020
     }
     
     main nav {
@@ -49,7 +50,10 @@
         width: 10%;
         height: 30px;
         text-align: center;
-        border: solid 1px white;
+        border-left: solid 1px #202020;
+        border-right: solid 1px #505050;
+        border-top: solid 1px #202020;;
+        border-bottom: solid 1px #202020;;
     }
     header div {
         border: solid 1px white;
