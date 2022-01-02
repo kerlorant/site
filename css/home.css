@@ -39,7 +39,7 @@ nav {
     font-family: 'Source Sans Pro', sans-serif;  
     
 }
-nav a {
+nav a{
     padding-top: 0.4em;
     text-decoration: none;
     color: whitesmoke;
@@ -56,7 +56,14 @@ nav a:hover {
     color: black ;
     margin: 0;
 }
+.dropbtn {
+    color: whitesmoke;
+    
+}
 .dropbtn:hover .dropdownContent {
     display: block;
-    
+}
+.dropbtn:hover {
+    color: black;
+    background-color: #ccc;
 }
