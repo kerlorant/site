@@ -26,43 +26,75 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #1a1a1a;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ccc;
 }
+
+header nav a {
+    /* padding: 1em;*/
+    text-decoration: none;
+    color: #ccc;
+    width: 16%;
+    height: 30px;
+    text-align: center;
+    border-left: solid 3px #000;
+    border-right: solid 3px #505050;
+    border-top: solid 3px #505050;
+    ;
+    border-bottom: solid 3px #505050;
+    ;
+    margin: 0px;
+   /* background-color: #404040*/
+}
+
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+   /*justify-content: space-evenly;*/
+   justify-content: center;
     /*align-items: center;*/
-    height: 30px;
-    background-color:#404040;
+    /*height: 30px;*/
+   /* background-color: #404040;*/
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;  
-    
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
-nav a{
+
+nav a {
     padding-top: 0.4em;
     text-decoration: none;
     color: whitesmoke;
-    
-    
+
+
 }
+
 nav a:hover {
-    
-    background-color: #ccc;
-    color: black;
+
+    /*background-color: aqua;
+    color: black;*/
+    color: aqua;
 }
+
 .dropdownContent {
     display: none;
-    color: black ;
+    color: black;
     margin: 0;
 }
+
 .dropbtn {
     color: whitesmoke;
-    
+
 }
+
 .dropbtn:hover .dropdownContent {
     display: block;
 }
+
 .dropbtn:hover {
     color: black;
     background-color: #ccc;
